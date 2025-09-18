@@ -1,0 +1,357 @@
+*{          
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+        
+     width: 100%;
+     height: 60px;
+     padding-left: 10px;
+     padding-right: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: fixed;
+     position: absolute;
+
+ }
+
+   #navbar img{
+         
+    width: 5%;
+  
+  }
+    
+   #navbar nav ul {
+
+    display: flex;
+    gap: 10px;
+    list-style: none;
+   
+ }
+   #navbar nav ul li a{
+
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+ }    
+  #navbar nav ul li a:hover {
+
+      color: #c33;
+
+
+  }
+
+    #navbar .user{
+
+    display: flex;
+    gap: 50px;
+    color:white;
+   }
+
+     .list{
+          display: flex;
+          gap: 20px;
+          list-style: none;
+}
+
+ #navbar .heart{
+
+           display: flex;
+           gap: 5px;
+           background-color: white;
+
+ }
+   
+   #navbar .basket{
+
+          display: flex;
+          gap: 5px;
+          background-color:white;
+
+   }
+
+  #navbar .Login{
+         
+       display: flex;
+       gap: 5px;
+
+       background-color: #c33;
+       height: 40px;
+       width: 15%;
+       justify-content: center;
+       align-items: center; 
+       border-radius: 20px;
+       color: white; 
+    
+       #navbar .Login {
+
+               justify-content: center;
+               color: white;
+              
+       }
+
+ 
+  }
+
+    button{
+
+        width: 100px;
+        height: 30px;
+       
+    }
+
+    #firstpage{
+
+         width: 100%;
+         height: 80vh;
+         border: 1px solid slategray;
+         
+         background-image: url(./pizzaa.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         display: flex;
+         justify-content: right;
+         align-items: center;
+         flex-direction: column;
+         padding-top: 10%;
+         padding-left: 35%;
+         
+    }
+         
+        
+     #secondpage{
+
+      width: 95%;
+      height: 50vh;
+      border: 1px white;
+  
+      padding-right: 5%;
+      padding-left: 5%;
+      background-image: none;
+      background-position: center;
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      flex-direction: column;
+      padding-top: 5%;
+      text-align: center;
+      font-size: 45px;
+      
+ 
+    }
+  
+    #thirdpage{
+ 
+      width: 95%;
+      height: 80vh;
+      border: 1px white;
+
+      text-align: center;
+      font-size: 45px;
+      padding-top: 10% ;
+      /* padding-left: 50%; */
+      font-size: 30px;
+      display: flex;
+
+     }
+     #thirdpage img{
+
+
+          width: 40%;
+          height: 100%;
+         
+     }
+
+     #thirdpage h4{
+
+      font-size: medium;
+      padding-left: 10%;
+      padding-top: 5%;
+     }
+              
+     #fourthpage{
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(./v.jpn.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+      
+
+     }
+  
+     #fourthpage .box{
+      width: 500px;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(./boxxx.jpn.jpg);
+      
+     }
+      
+#fourthpage .box:hover{
+
+    box-shadow: 10px  20px  10px  0px ;
+    transform: translate(100px,0px); 
+}
+
+#fifthpage {
+
+   width: auto;
+   height:50vh;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   gap: 10px;
+   padding-top: 5%;
+}
+
+#fifthpage .ok{
+ 
+   width: 200px;
+   height: 200px;
+   border: 1px solid black;
+   background-image: url(./khadhai.np.jpg);
+}
+   
+#fifthpage .okk{
+ 
+   width: 200px;
+   height: 200px;
+   border: 1px solid black;
+   background-image: url(./mm.jpg);
+}
+#fifthpage .okkk{
+ 
+   width: 200px;
+   height: 200px;
+   border: 1px solid black;
+   background-image: url(./cc.jpn.jpg);
+}
+#fifthpage .okkkk{
+ 
+   width: 200px;
+   height: 200px;
+   border: 1px solid black;
+   background-image: url(./gb.jpg);
+}
+#fifthpage .okkkkk{
+ 
+   width: 200px;
+   height: 200px;
+   border: 1px solid black;
+   background-image: url(./coldrink.jpn.jpg);
+}
+#fifthpage .okkkkkk{
+ 
+   width: 200px;
+   height: 200px;
+   border: 1px solid black;
+   background-image: url(./noosdles.jpn.jpg);
+}
+
+#bar{
+   position: absolute;
+   font-size: 30px;
+   color:white;
+   right: 5%;
+   top: 2%;
+   z-index: 999 !important;
+   display: none;
+   
+}
+
+#check{
+   display: none;
+}
+
+#name{
+
+     background-color: black;
+     width:100% ;
+     height: 30vh;
+}
+
+#name div{
+       font-size: larger;
+       display: flex;
+       justify-content: center;
+       align-content: center;
+       padding-top: 10%;
+       gap: 10px;
+     
+}
+#name h1{
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+ 
+@media(max-width:430px){ 
+
+#navbar{
+   width: 10%;
+}
+#navbar img{
+         
+    width: 400%;
+  
+  }
+  #navbar nav ul{
+
+   display:none;
+
+  }
+
+  #bar{
+   display: block;
+  }
+
+  #check:checked~#navbar nav ul{
+   display: block;
+
+  }
+  
+      #navbar .user{
+
+      display: none;
+
+      }
+     
+ #navbar .heart{
+
+      display: none;
+
+      }
+     
+ #navbar .basket{
+
+      display: none;
+
+      }
+    
+  #navbar button{
+
+   display: none;
+  }
+   
+  #navbar nav ul li{
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 300%;
+      background-color: grey;
+      background: local;
+     
+}
+}
